@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <title>Pendaftaran Kelas</title>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <h1 class="Header">Fisika<span class="warnalain">Ku</span></h1>
+        </header>
+
+        <h2 class="data-diri1">Data Diri</h2>
+        <div class="form1">
+            <form action="">
+                <label class="monserat">Nama Lengkap:</label>
+                <br>
+                <input type="text" name="namaLengkap" id="namaLengkap">
+                <br>
+                <label class="monserat">Tempat dan Tanggal Lahir:</label>
+                <br>
+                <input type="text" name="TTL" id="TTL">
+                <br>
+                <label class="monserat">Jenis Kelamin</label>
+                <br>
+                <input type="radio" name="gender" id="male">Laki Laki
+                <br>
+                <input type="radio" name="gender" id="female">Perempuan
+                <br>
+                <label class="monserat">Nomor Whatsapp:</label>
+                <br>
+                <input type="tel" name="nowa" id="nowa" placeholder="085712346789" pattern="[0-9]">
+                <br>
+                <label class="monserat">Alamat Surel:</label>
+                <br>
+                <input type="email" name="surel" id="surel" placeholder="example@gmail.com">
+                <br>
+                <label class="monserat">Kelas Yang Akan Diambil:</label>
+                <br>
+                <input type="checkbox" name="kelas" id="kelasx" placeholder="">Kelas X
+                <input type="checkbox" name="kelas" id="kelasxi" placeholder="">Kelas XI
+                <input type="checkbox" name="kelas" id="kelasxii" placeholder="">Kelas XII
+                <br>
+                <button type="submit" onclick="alert('Terima Kasih Telah Mendaftar')">Submit</button>
+            </form>
+
+            <p>Metode pembayaran akan dialihkan setelah menerima email dari kami*</p>
+        </div>
+    </div>
+</body>
+
+</html>

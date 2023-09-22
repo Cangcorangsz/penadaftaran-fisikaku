@@ -1,0 +1,36 @@
+.content {
+    width: 50%;
+    margin: auto;
+    border: solid black 2px;
+    margin: 2% auto;
+
+}
+
+header {
+    font-family: 'Pacifico', cursive;
+    color: #9D76C1;
+    text-align: center;
+}
+
+.warnalain {
+    color: #E5CFF7;
+}
+
+.data-diri1 {
+    margin-left: 2%;
+}
+
+.form1 {
+    margin-left: 5%;
+}
+
+/* Kelas Satuan */
+
+.bold {
+    font-weight: bold;
+}
+
+.monserat {
+    font-family: 'Montserrat', sans-serif;
+
+}
